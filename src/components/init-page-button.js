@@ -28,12 +28,15 @@ export default class MakeMeSuperButton extends Component {
 
   render(){
     return (
+      //@TODO get the button image to transition between logos.
       <div onClick={this.clickhandler.bind(this)}>
-      <img src={this.state.imageUrl} alt="Your Alter Ego!" width="400" height="315" />
-
+      <ReactCSSTransitionGroup transitionName="init-button">
+        <img key={this.state.imageUrl} src={this.state.imageUrl} alt="Your Alter Ego!" width="400" height="315" />
+      </ReactCSSTransitionGroup>
       </div>
     )
   }
+
 
   clickhandler() {
     if(urlArray[i + 1]){

@@ -55,6 +55,9 @@ body {
   margin-top: 15px;
 }
 
+/* Transitions */
+
+
 /* for jenna's search.js */
 .searchContainer {
   background-image: url("./src/images/search_batman.jpg");
@@ -78,5 +81,5 @@ body {
   color: blue;
 }
 .paragraphText {
-  color: white;
+  color: #E7621E;
 }
