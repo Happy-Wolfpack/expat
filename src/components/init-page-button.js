@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactCSSTransitionGroup from 'react-addons-transition-group';
 
 //<img src={this.state.imageUrl} className="img-rounded" alt="Your Alter Ego!" width="304" height="236" />
 
@@ -8,6 +9,7 @@ const urlArray = [
   "../src/images/green_lantern-symbol.png",
   "../src/images/wonder_woman-symbol.png",
   "../src/images/chuck_norris-symbol.png",
+  "../src/images/catwoman-symbol.png",
   "../src/images/batman-symbol.png"
 ];
 
