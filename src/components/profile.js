@@ -24,24 +24,46 @@ componentWillMount (){
     //using map/foreach, iterate through state to render each piece of
     //info for each activity
     return (
-      <div>
-      <h1>My Profile</h1>
 
-      <table>
+  <div className="profileContainer">
+      <h1 className="profileHead">My Profile</h1>
+      <h2 className="Welcome">Welcome, Batman!</h2>
 
-      <th>Saved Activities</th>
+      <div className="tableContainer">
+
+      <table class="flat-table" align="center">
+      <tbody>
       <tr>
-      <td>Type</td>
-      <td>Title</td>
-      <td>Location</td>
-      <td>Link</td>
+        <th>Title</th>
+        <th>Locale</th>
+        <th>Description</th>
+        <th>Links</th>
       </tr>
-
-      <tr>/*Activities should populate here*/</tr>
-
-
+      <tr>
+        <td>Wingsuit Over Dubai</td>
+        <td>Dubai</td>
+        <td>Always wanted to learn how to fly?</td>
+        <td><a>www.skydivedubai.ae/sponsorship/wingsuit.html</a></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      </tbody>
       </table>
+
+
       </div>
+
+</div>
 
     );
   };
